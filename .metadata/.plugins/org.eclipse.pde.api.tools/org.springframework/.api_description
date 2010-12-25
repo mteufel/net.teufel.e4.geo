@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.springframework" modificationStamp="376" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.http.converter"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.remoting.caucho"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.jsf.el"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.remoting.jaxrpc"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.convert.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.serializer.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.multipart"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.util.comparator"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.http.converter.feed"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.util"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.http"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.io"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.annotation"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.bind.annotation.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.context"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.bind"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.http.client.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.enums"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.task"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.context.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.bind.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.jsf"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.util.xml"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.task.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.bind.annotation"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.style"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.multipart.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.util"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.client"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.client.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.type"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.http.converter.xml"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.http.server"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.filter"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.multipart.commons"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.io.support"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.type.filter"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.web.context.request"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.http.converter.json"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.type.classreading"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.remoting.jaxws"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.serializer"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.http.client"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.convert"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.core-3.0.5.RELEASE.jar&lt;org.springframework.core.convert.converter"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.springframework/lib\/org.springframework.web-3.0.5.RELEASE.jar&lt;org.springframework.remoting.httpinvoker"/>
+    </package>
+</component>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1293283663029" transient="true" version="3.0">
+<site enabled="true" list="workspace/org.springframework/,workspace/org.springframework.ws/,workspace/org.apache.commons/,workspace/net.teufel.e4.geo.core/,workspace/net.teufel.e4.geo.ui/" policy="USER-INCLUDE" updateable="true" url="file:/home/marc/Desktop/e4/4.1m4a/">
+</site>
+<site enabled="true" list="plugins/org.eclipse.core.databinding.property_1.3.0.I20100601-0800.jar,plugins/org.apache.batik.css_1.6.0.v201011041432.jar,plugins/org.eclipse.core.databinding_1.3.100.I20100601-0800.jar,plugins/org.eclipse.emf.ecore.xmi_2.6.0.v20100908-1640.jar,plugins/org.eclipse.equinox.concurrent_1.0.100.v20100503.jar,plugins/org.eclipse.equinox.common_3.6.0.v20101213.jar,plugins/org.w3c.css.sac_1.3.1.v200903091627.jar,plugins/org.eclipse.equinox.util_1.0.200.v20100503.jar,plugins/org.eclipse.core.commands_3.6.0.I20101116-0800.jar,plugins/org.eclipse.swt.gtk.linux.x86_64_3.7.0.v3717.jar,plugins/org.apache.commons.httpclient_3.1.0.v201005080502.jar,plugins/javax.servlet_2.5.0.v200910301333.jar,plugins/org.eclipse.jface_3.7.0.I20101214-0800.jar,plugins/org.eclipse.e4.ui.model.workbench_0.9.1.v20101201-1400.jar,plugins/org.eclipse.emf.ecore_2.7.0.v20101215-0917.jar,plugins/org.eclipse.e4.ui.workbench.swt_0.9.1.v20101206-1430.jar,plugins/org.eclipse.jface.databinding_1.5.0.I20100907-0800.jar,plugins/org.eclipse.core.runtime.compatibility.auth_3.2.200.v20100517.jar,plugins/org.eclipse.ant.core_3.2.200.v20101129.jar,plugins/org.apache.batik.util.gui_1.6.0.v201011041432.jar,plugins/org.eclipse.e4.ui.workbench3_1.0.0.v20100720-1930.jar,plugins/org.eclipse.e4.core.commands_0.9.0.v20101125-1630.jar,plugins/org.eclipse.ui_3.7.0.v20100924-1330.jar,plugins/org.eclipse.e4.ui.css.swt_0.9.1.v20101201-1400.jar,plugins/org.eclipse.e4.ui.bindings_0.9.0.v20101201-1400.jar,plugins/org.eclipse.emf.ecore.change_2.7.0.v20101105-1004.jar,plugins/org.eclipse.e4.core.di.extensions_0.9.0.v20101122-2200.jar,plugins/javax.servlet.jsp_2.0.0.v200806031607.jar,plugins/org.eclipse.ui.workbench_3.100.0.v20101208-1430.jar,plugins/org.eclipse.equinox.event_1.2.100.v20101208.jar,plugins/org.eclipse.e4.core.contexts_0.9.0.v20101125-1630.jar,plugins/org.eclipse.core.expressions_3.4.200.v20100505.jar,plugins/org.eclipse.core.databinding.beans_1.2.100.I20100824-0800.jar,plugins/org.eclipse.core.runtime.compatibility.registry_3.3.100.v20101108,plugins/org.eclipse.osgi.services_3.3.0.v20101018.jar,plugins/org.eclipse.emf.common_2.6.0.v20101215-0917.jar,plugins/javax.inject_1.0.0.v20091030.jar,plugins/org.eclipse.e4.ui.css.swt.theme_0.9.0.v20100723-1830.jar,plugins/javax.annotation_1.0.0.v20101115-0725.jar,plugins/org.eclipse.core.runtime_3.6.100.v20101213.jar,plugins/org.apache.commons.logging_1.0.4.v201005080501.jar,plugins/org.apache.commons.codec_1.3.0.v20100518-1140.jar,plugins/org.eclipse.e4.ui.services_0.9.1.v20101201-1400.jar,plugins/org.eclipse.core.filesystem.linux.x86_64_1.2.0.v20100505-1235.jar,plugins/org.eclipse.e4.ui.di_0.9.0.v20101118-1530.jar,plugins/org.eclipse.ui.forms_3.5.100.v20101129.jar,plugins/org.eclipse.help_3.5.0.v20100524.jar,plugins/org.eclipse.core.contenttype_3.4.100.v20101203-1034.jar,plugins/org.eclipse.core.filesystem_1.3.100.v20101115.jar,plugins/org.eclipse.emf.databinding_1.2.0.v20101215-0940.jar,plugins/org.eclipse.core.resources_3.7.100.v20101213.jar,plugins/org.eclipse.equinox.preferences_3.3.100.v20101204.jar,plugins/org.eclipse.e4.core.di_0.9.0.v20101202-1530.jar,plugins/org.eclipse.core.variables_3.2.500.v20101213_2.jar,plugins/org.w3c.dom.svg_1.1.0.v201011041433.jar,plugins/org.eclipse.e4.ui.widgets_1.0.0.v20100726-2030.jar,plugins/org.eclipse.core.databinding.observable_1.3.0.I20100824-0800.jar,plugins/org.eclipse.equinox.registry_3.5.100.v20101101.jar,plugins/org.w3c.dom.smil_1.0.0.v200806040011.jar,plugins/org.eclipse.osgi_3.7.0.v20101213.jar,plugins/org.eclipse.swt_3.7.0.v3717.jar,plugins/org.apache.batik.util_1.6.0.v201011041432.jar,plugins/org.eclipse.equinox.ds_1.3.0.v20101213.jar,plugins/org.eclipse.e4.ui.workbench_0.9.1.v20101206-1430.jar,plugins/org.eclipse.e4.ui.css.core_0.9.0.v20101201-1400.jar,plugins/org.eclipse.core.jobs_3.5.100.v20101008.jar,plugins/org.eclipse.e4.core.services_0.9.1.v20100720-1930.jar,plugins/com.ibm.icu_4.2.1.v20100412.jar,plugins/org.eclipse.equinox.app_1.3.100.v20100803.jar,plugins/org.eclipse.e4.ui.workbench.renderers.swt_0.9.1.v20101204-1745.jar" policy="USER-INCLUDE" updateable="true" url="file:/home/marc/Desktop/e4/4.1m4a/eclipse/">
+<feature id="org.eclipse.e4.xwt.feature" url="features/org.eclipse.e4.xwt.feature_0.9.1.v20091126-1500-17Z2AkF7B7AFCX27M55/" version="0.9.1.v20091126-1500-17Z2AkF7B7AFCX27M55">
+</feature>
+<feature id="org.eclipse.e4.rcp.source" url="features/org.eclipse.e4.rcp.source_1.0.0.v20101201-1400-7IA17CFT0z0-RYPBOsHs1t9/" version="1.0.0.v20101201-1400-7IA17CFT0z0-RYPBOsHs1t9">
+</feature>
+<feature id="com.instantiations.designer.layout.group.feature" plugin-identifier="com.instantiations.designer.layout.group" url="features/com.instantiations.designer.layout.group.feature_8.1.1.r36x201012161545/" version="8.1.1.r36x201012161545">
+</feature>
+<feature id="org.eclipse.e4.xwt.tools.source.feature" url="features/org.eclipse.e4.xwt.tools.source.feature_0.9.0.v20100705-2130-28g5FAFkNZNTz0c67SYLF/" version="0.9.0.v20100705-2130-28g5FAFkNZNTz0c67SYLF">
+</feature>
+<feature id="com.instantiations.designer.core.ui.feature" url="features/com.instantiations.designer.core.ui.feature_8.1.1.r36x201012161236/" version="8.1.1.r36x201012161236">
+</feature>
+<feature id="com.instantiations.eclipse.ui" url="features/com.instantiations.eclipse.ui_8.1.1.r36x201012161226/" version="8.1.1.r36x201012161226">
+</feature>
+<feature id="org.eclipse.help.source" url="features/org.eclipse.help.source_1.3.0.v20101118-7i7tFE9FFt6ZopgSrGQsz0tH/" version="1.3.0.v20101118-7i7tFE9FFt6ZopgSrGQsz0tH">
+</feature>
+<feature id="org.eclipse.e4.core.tools.feature" url="features/org.eclipse.e4.core.tools.feature_0.9.0.v20100720-1930-37Z-CcNBHBDgLJ5GmNB/" version="0.9.0.v20100720-1930-37Z-CcNBHBDgLJ5GmNB">
+</feature>
+<feature id="org.eclipse.sdk" url="features/org.eclipse.sdk_4.1.0.v20101004-7T7fA7F8Yv_Ob6Jlz0jU9UGUSsMgYFaPLrs0AgqgRc_kf/" version="4.1.0.v20101004-7T7fA7F8Yv_Ob6Jlz0jU9UGUSsMgYFaPLrs0AgqgRc_kf">
+</feature>
+<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.7.0.v20101215-0917/" version="2.7.0.v20101215-0917">
+</feature>
+<feature id="com.instantiations.designer.swing.feature" plugin-identifier="com.instantiations.designer.swing" url="features/com.instantiations.designer.swing.feature_8.1.1.r36x201012170656/" version="8.1.1.r36x201012170656">
+</feature>
+<feature id="org.eclipse.e4.xwt.tools.feature" url="features/org.eclipse.e4.xwt.tools.feature_0.9.0.v20100705-2130-28g5FAFkNZNTz0c67SYLF/" version="0.9.0.v20100705-2130-28g5FAFkNZNTz0c67SYLF">
+</feature>
+<feature id="com.instantiations.designer.swt.feature" plugin-identifier="com.instantiations.designer.swt" url="features/com.instantiations.designer.swt.feature_8.1.1.r36x201012170546/" version="8.1.1.r36x201012170546">
+</feature>
+<feature id="org.eclipse.e4.xwt.workbench.feature" url="features/org.eclipse.e4.xwt.workbench.feature_0.9.0.v20100618-178-7w3121222A01911/" version="0.9.0.v20100618-178-7w3121222A01911">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui" url="features/org.eclipse.equinox.p2.user.ui_2.1.0.v20101103-897OFyZFdHjO2NmFwMQPpKI/" version="2.1.0.v20101103-897OFyZFdHjO2NmFwMQPpKI">
+</feature>
+<feature id="org.eclipse.e4.xwt.css.source.feature" url="features/org.eclipse.e4.xwt.css.source.feature_0.9.0.v20090609-1530-178-7w3121172803211/" version="0.9.0.v20090609-1530-178-7w3121172803211">
+</feature>
+<feature id="org.eclipse.e4.ui.web.feature" url="features/org.eclipse.e4.ui.web.feature_0.9.0.v20091022-1230-17H08s73533B7C15B93/" version="0.9.0.v20091022-1230-17H08s73533B7C15B93">
+</feature>
+<feature id="org.eclipse.egit" url="features/org.eclipse.egit_0.9.3/" version="0.9.3">
+</feature>
+<feature id="org.eclipse.wst.xml_userdoc.feature" url="features/org.eclipse.wst.xml_userdoc.feature_3.3.0.v201007311522-50FYwAkF7B77UBZFDBL/" version="3.3.0.v201007311522-50FYwAkF7B77UBZFDBL">
+</feature>
+<feature id="org.eclipse.jgit" url="features/org.eclipse.jgit_0.9.3/" version="0.9.3">
+</feature>
+<feature id="org.eclipse.e4.resources.feature" url="features/org.eclipse.e4.resources.feature_0.10.0.v20100211-0930-17738s7353535715539/" version="0.10.0.v20100211-0930-17738s7353535715539">
+</feature>
+<feature id="org.eclipse.cvs.source" url="features/org.eclipse.cvs.source_1.3.100.v20101029-7B77FO-8sF7B7AHDN4GQ75/" version="1.3.100.v20101029-7B77FO-8sF7B7AHDN4GQ75">
+</feature>
+<feature id="org.eclipse.wst.xml_core.feature" url="features/org.eclipse.wst.xml_core.feature_3.3.0.v201010070622-7C7OFchF7RZHQHMeN-NrYU/" version="3.3.0.v201010070622-7C7OFchF7RZHQHMeN-NrYU">
+</feature>
+<feature id="org.eclipse.e4.ui.web.source.feature" url="features/org.eclipse.e4.ui.web.source.feature_0.9.0.v20091022-1230-17H08s73533B7C15B93/" version="0.9.0.v20091022-1230-17H08s73533B7C15B93">
+</feature>
+<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.6.0.v20101215-0917/" version="2.6.0.v20101215-0917">
+</feature>
+<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.7.0.v20100803-7b7oFXNFEx2XmfiPmQ4E33/" version="3.7.0.v20100803-7b7oFXNFEx2XmfiPmQ4E33">
+</feature>
+<feature id="org.eclipse.e4.ui.feature" url="features/org.eclipse.e4.ui.feature_0.9.1.v20101022-1436-7B9m7DFONp8E_-ENe9_oi726CA4/" version="0.9.1.v20101022-1436-7B9m7DFONp8E_-ENe9_oi726CA4">
+</feature>
+<feature id="org.eclipse.wst.xml_ui.feature" plugin-identifier="org.eclipse.wst.xml.ui" url="features/org.eclipse.wst.xml_ui.feature_3.3.0.v201007311522-7H7DF_ZDxumTham8gimYU85amz0J/" version="3.3.0.v201007311522-7H7DF_ZDxumTham8gimYU85amz0J">
+</feature>
+<feature id="com.instantiations.designer.doc.user.feature" url="features/com.instantiations.designer.doc.user.feature_8.1.1.r36x201012161543/" version="8.1.1.r36x201012161543">
+</feature>
+<feature id="com.instantiations.designer.core.feature" plugin-identifier="com.instantiations.designer.core" url="features/com.instantiations.designer.core.feature_8.1.1.r36x201012161228/" version="8.1.1.r36x201012161228">
+</feature>
+<feature id="com.instantiations.eclipse.shared" url="features/com.instantiations.eclipse.shared_6.0.0.r36x201012150828/" version="6.0.0.r36x201012150828">
+</feature>
+<feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.1.0.v20101006-9HEvGgTFmYIKDWY2ELiByA4bs89IeLwsfiAhytJpOCI/" version="4.1.0.v20101006-9HEvGgTFmYIKDWY2ELiByA4bs89IeLwsfiAhytJpOCI">
+</feature>
+<feature id="com.instantiations.designer.xwt.feature" plugin-identifier="com.instantiations.designer.xwt" url="features/com.instantiations.designer.xwt.feature_8.1.1.r36x201012170700/" version="8.1.1.r36x201012170700">
+</feature>
+<feature id="org.eclipse.e4.xwt.emf.source.feature" url="features/org.eclipse.e4.xwt.emf.source.feature_0.9.0.v20090624-1330-178-7w3121172803211/" version="0.9.0.v20090624-1330-178-7w3121172803211">
+</feature>
+<feature id="org.eclipse.e4.xwt.workbench.source.feature" url="features/org.eclipse.e4.xwt.workbench.source.feature_0.9.0.v20100618-178-7w3121222A01911/" version="0.9.0.v20100618-178-7w3121222A01911">
+</feature>
+<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.3.0.v20101118-7i7tFE9FFt6ZopgSrGQsz0tH/" version="1.3.0.v20101118-7i7tFE9FFt6ZopgSrGQsz0tH">
+</feature>
+<feature id="org.eclipse.e4.core.tools.source.feature" url="features/org.eclipse.e4.core.tools.source.feature_0.9.0.v20100720-1930-37Z-CcNBHBDgLJ5GmNB/" version="0.9.0.v20100720-1930-37Z-CcNBHBDgLJ5GmNB">
+</feature>
+<feature id="org.eclipse.emf.databinding" url="features/org.eclipse.emf.databinding_1.2.0.v20101215-0940/" version="1.2.0.v20101215-0940">
+</feature>
+<feature id="org.eclipse.e4.resources.source.feature" url="features/org.eclipse.e4.resources.source.feature_0.10.0.v20100211-0930-17738s7353535715539/" version="0.10.0.v20100211-0930-17738s7353535715539">
+</feature>
+<feature id="org.eclipse.e4.runtime.feature" url="features/org.eclipse.e4.runtime.feature_0.9.1.v20100917-1000-7Q6A7F9JgLWLMgNNAXpeu/" version="0.9.1.v20100917-1000-7Q6A7F9JgLWLMgNNAXpeu">
+</feature>
+<feature id="org.eclipse.rcp.source" url="features/org.eclipse.rcp.source_4.1.0.v20101119-1030-97C5Fm0FnSInsk2cNbMRSwyQCPtI/" version="4.1.0.v20101119-1030-97C5Fm0FnSInsk2cNbMRSwyQCPtI">
+</feature>
+<feature id="org.eclipse.pde.source" url="features/org.eclipse.pde.source_3.7.0.v20100803-7b7oFXNFEx2XmfiPmQ4E33/" version="3.7.0.v20100803-7b7oFXNFEx2XmfiPmQ4E33">
+</feature>
+<feature id="org.eclipse.e4.ui.css.source.feature" url="features/org.eclipse.e4.ui.css.source.feature_0.9.1.v20100603-1900-79880FAiKQ6gX0gz0Rq8i9/" version="0.9.1.v20100603-1900-79880FAiKQ6gX0gz0Rq8i9">
+</feature>
+<feature id="org.eclipse.cvs" url="features/org.eclipse.cvs_1.3.100.v20101029-7B77FO-8sF7B7AHDN4GQ75/" version="1.3.100.v20101029-7B77FO-8sF7B7AHDN4GQ75">
+</feature>
+<feature id="org.eclipse.jdt.source" url="features/org.eclipse.jdt.source_3.7.0.v20100824-0800-7z8eFcgFMTfEQJ1ex-IpN_d9H155/" version="3.7.0.v20100824-0800-7z8eFcgFMTfEQJ1ex-IpN_d9H155">
+</feature>
+<feature id="org.eclipse.e4.xwt.css.feature" url="features/org.eclipse.e4.xwt.css.feature_0.9.0.v20090609-1530-178-7w3121172803211/" version="0.9.0.v20090609-1530-178-7w3121172803211">
+</feature>
+<feature id="org.eclipse.xsd.edit" url="features/org.eclipse.xsd.edit_2.6.0.v20101215-0940/" version="2.6.0.v20101215-0940">
+</feature>
+<feature id="org.eclipse.rcp" url="features/org.eclipse.rcp_4.1.0.v20101119-1030-97C5Fm0FnSInsk2cNbMRSwyQCPtI/" version="4.1.0.v20101119-1030-97C5Fm0FnSInsk2cNbMRSwyQCPtI">
+</feature>
+<feature id="org.eclipse.e4.ui.source.feature" url="features/org.eclipse.e4.ui.source.feature_0.9.1.v20101022-1436-7B9m7DFONp8E_-ENe9_oi726CA4/" version="0.9.1.v20101022-1436-7B9m7DFONp8E_-ENe9_oi726CA4">
+</feature>
+<feature id="com.instantiations.designer.rcp.feature" plugin-identifier="com.instantiations.designer.rcp" url="features/com.instantiations.designer.rcp.feature_8.1.1.r36x201012170653/" version="8.1.1.r36x201012170653">
+</feature>
+<feature id="org.eclipse.wst.common_ui.feature" url="features/org.eclipse.wst.common_ui.feature_3.3.0.v201008062100-7C79FSkEdhO_mc7e8kYit_MqRz00/" version="3.3.0.v201008062100-7C79FSkEdhO_mc7e8kYit_MqRz00">
+</feature>
+<feature id="com.instantiations.designer.core.xml.feature" plugin-identifier="com.instantiations.designer.core.xml" url="features/com.instantiations.designer.core.xml.feature_8.1.1.r36x201012161237/" version="8.1.1.r36x201012161237">
+</feature>
+<feature id="org.eclipse.e4.ui.css.feature" url="features/org.eclipse.e4.ui.css.feature_0.9.1.v20100603-1900-79880FAiKQ6gX0gz0Rq8i9/" version="0.9.1.v20100603-1900-79880FAiKQ6gX0gz0Rq8i9">
+</feature>
+<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.7.0.v20100824-0800-7z8eFcgFMTfEQJ1ex-IpN_d9H155/" version="3.7.0.v20100824-0800-7z8eFcgFMTfEQJ1ex-IpN_d9H155">
+</feature>
+<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_1.0.0.v20101201-1400-7IA17CFT0z0-RYPBOsHs1t9/" version="1.0.0.v20101201-1400-7IA17CFT0z0-RYPBOsHs1t9">
+</feature>
+<feature id="org.eclipse.e4.xwt.source.feature" url="features/org.eclipse.e4.xwt.source.feature_0.9.1.v20091126-1500-17Z2AkF7B7AFCX27M55/" version="0.9.1.v20091126-1500-17Z2AkF7B7AFCX27M55">
+</feature>
+<feature id="org.eclipse.equinox.p2.user.ui.source" url="features/org.eclipse.equinox.p2.user.ui.source_2.1.0.v20101103-897OFyZFdHjO2NmFwMQPpKI/" version="2.1.0.v20101103-897OFyZFdHjO2NmFwMQPpKI">
+</feature>
+<feature id="org.eclipse.wst.common_core.feature" url="features/org.eclipse.wst.common_core.feature_3.3.0.v201008062100-7B7DFJMF7RZHOZLpQz-NqTJ/" version="3.3.0.v201008062100-7B7DFJMF7RZHOZLpQz-NqTJ">
+</feature>
+<feature id="org.eclipse.e4.xwt.emf.feature" url="features/org.eclipse.e4.xwt.emf.feature_0.9.0.v20090624-1330-178-7w3121172803211/" version="0.9.0.v20090624-1330-178-7w3121172803211">
+</feature>
+<feature id="com.instantiations.designer.rcp.SWT_AWT_support" plugin-identifier="com.instantiations.designer.rcp.SWT_AWT" url="features/com.instantiations.designer.rcp.SWT_AWT_support_8.1.1.r36x201012170702/" version="8.1.1.r36x201012170702">
+</feature>
+<feature id="org.eclipse.platform.source" url="features/org.eclipse.platform.source_4.1.0.v20101006-9HEvGgTFmYIKDWY2ELiByA4bs89IeLwsfiAhytJpOCI/" version="4.1.0.v20101006-9HEvGgTFmYIKDWY2ELiByA4bs89IeLwsfiAhytJpOCI">
+</feature>
+</site>
+</config>

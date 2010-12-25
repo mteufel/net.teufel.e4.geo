@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="net.teufel.e4.geo.core" modificationStamp="10" version="1.2">
+    <package visibility="1">
+        <fragment handle="=net.teufel.e4.geo.core/src&lt;net.teufel.e4.geo.domain"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=net.teufel.e4.geo.core/src&lt;net.teufel.e4.geo.interfaces"/>
+    </package>
+</component>

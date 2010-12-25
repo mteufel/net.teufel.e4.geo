@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component id="org.apache.commons" modificationStamp="366" version="1.2">
+    <package visibility="1">
+        <fragment handle="=org.apache.commons/lib\/com.springsource.org.apache.commons.logging-1.1.1.jar&lt;org.apache.commons.logging"/>
+    </package>
+    <package visibility="1">
+        <fragment handle="=org.apache.commons/lib\/com.springsource.org.apache.commons.logging-1.1.1.jar&lt;org.apache.commons.logging.impl"/>
+    </package>
+</component>
