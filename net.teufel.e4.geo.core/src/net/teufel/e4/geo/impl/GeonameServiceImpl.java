@@ -1,7 +1,5 @@
 package net.teufel.e4.geo.impl;
 
-import java.net.Authenticator;
-import java.net.PasswordAuthentication;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -25,7 +23,6 @@ public class GeonameServiceImpl implements IGeonameService {
 	
 	@Override
 	public List<Code> getCodeByName(String name) {
-		//activateProxy("vzteufem", "donnerstag2");
 		String url = "http://ws.geonames.org/postalCodeSearch?placename_startsWith={name}";
 		Map<String, String> urlVariables = new HashMap<String, String>();
 		urlVariables.put("name", name);
@@ -34,7 +31,6 @@ public class GeonameServiceImpl implements IGeonameService {
 	
 	@Override
 	public List<Code> getCodeByNameAndCountry(String name, String country) {
-		//activateProxy("vzteufem", "donnerstag2");
 		String url = "http://ws.geonames.org/postalCodeSearch?placename_startsWith={name}&country={country}";
 		Map<String, String> urlVariables = new HashMap<String, String>();
 		urlVariables.put("name", name);
@@ -44,14 +40,12 @@ public class GeonameServiceImpl implements IGeonameService {
 	
 	@Override
 	public List<Country> getAllCountries() {
-		//activateProxy("vzteufem", "donnerstag2");
 		String url = "http://ws.geonames.org/countryInfo?";
 		return (List<Country>) doSearch(url, null, "//geonames/country", new CountryNodeMapper());
 	}
 	
 	@Override
 	public Country getCountry(String countryCode) {
-		//activateProxy("vzteufem", "donnerstag2");
 		String url = "http://ws.geonames.org/countryInfo?country={country}";
 		Map<String, String> urlVariables = new HashMap<String, String>();
 		urlVariables.put("country", countryCode);
@@ -63,7 +57,6 @@ public class GeonameServiceImpl implements IGeonameService {
 	
 	@Override
 	public List<Country> getNeighbours(Country country) {
-		//activateProxy("vzteufem", "donnerstag2");
 		String url = "http://ws.geonames.org/neighbours?geonameId={geonameId}";
 		Map<String, String> urlVariables = new HashMap<String, String>();
 		urlVariables.put("geonameId", Long.toString(country.getGeonameId()));
@@ -84,27 +77,5 @@ public class GeonameServiceImpl implements IGeonameService {
 		}
 		return new Jaxp13XPathTemplate().evaluate(xpath, payload, mapper);
 	}
-	
-	private void activateProxy(final String username, final String password) {
-	    System.setProperty("http.proxyHost","172.16.7.44") ;
-	    System.setProperty("http.proxyPort", "3128") ;
-	    
-	    Authenticator.setDefault(new Authenticator() {
-	        protected PasswordAuthentication getPasswordAuthentication() {
-	            return new
-	                    PasswordAuthentication(username,password.toCharArray());
-        }});
-	}
-	
-	public String getTestWithProxy() {
-		activateProxy("vzteufem", "donnerstag2");
-		
-		String url = "http://rss.cnn.com/rss/cnn_topstories.rss";
-		RestTemplate restTemplate = new RestTemplate();
-		String feed = restTemplate.getForObject(url, String.class);
-		return feed;
-	}
-
-
 	
 }

@@ -20,13 +20,13 @@ public class Activator implements BundleActivator {
 	 */
 	public void start(BundleContext bundleContext) throws Exception {
 		Activator.context = bundleContext;
-//	    System.setProperty("http.proxyHost","172.16.7.44") ;
+//	    System.setProperty("http.proxyHost","111.111.111.111") ;
 //	    System.setProperty("http.proxyPort", "3128") ;
 //		    
 //	    Authenticator.setDefault(new Authenticator() {
 //	        protected PasswordAuthentication getPasswordAuthentication() {
 //	            return new
-//	                    PasswordAuthentication("vzteufem","donnerstag2".toCharArray());
+//	                    PasswordAuthentication("xyz","xyz".toCharArray());
 //	        }});
 	}
 
