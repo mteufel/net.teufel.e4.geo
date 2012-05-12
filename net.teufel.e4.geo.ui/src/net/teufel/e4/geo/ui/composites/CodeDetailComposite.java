@@ -1,6 +1,7 @@
 package net.teufel.e4.geo.ui.composites;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -9,6 +10,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 
 import net.teufel.e4.geo.domain.Code;
+import net.teufel.e4.geo.util.ProxyAuthenticator;
 
 import org.eclipse.core.runtime.FileLocator;
 import org.eclipse.e4.core.di.annotations.Optional;
@@ -18,6 +20,7 @@ import org.eclipse.e4.ui.services.IServiceConstants;
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.swt.events.DisposeEvent;
 import org.eclipse.swt.events.DisposeListener;
+import org.eclipse.swt.graphics.Image;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.ui.forms.widgets.FormToolkit;
@@ -29,8 +32,6 @@ import org.eclipse.swt.layout.GridData;
 import org.eclipse.ui.forms.widgets.Section;
 import org.eclipse.ui.forms.widgets.Form;
 import org.eclipse.swt.layout.FillLayout;
-import org.eclipse.swt.browser.Browser;
-import com.swtdesigner.SWTResourceManager;
 
 @SuppressWarnings("restriction")
 public class CodeDetailComposite extends Composite {
@@ -48,10 +49,10 @@ public class CodeDetailComposite extends Composite {
 	private Text textGemeindeschluessel;
 	private Text textRegierungsbezirk;
 	private Text textLandkreis;
-	private Browser browser;
 	private Label labelLandIcon;
 	private Composite compositeKarte;
 	private Section sectionKarte;
+	private Label labelKarte;
 
 	/**
 	 * Create the composite.
@@ -167,15 +168,12 @@ public class CodeDetailComposite extends Composite {
 		sectionKarte.setClient(compositeKarte);
 		compositeKarte.setLayout(new FillLayout(SWT.HORIZONTAL));
 		
+		labelKarte = toolkit.createLabel(compositeKarte, "", SWT.NONE);
+//		browser.setBackground(SWTResourceManager.getColor(SWT.COLOR_BLUE));
 		
-		browser = new Browser(compositeKarte, SWT.NONE);
-		browser.setBackground(SWTResourceManager.getColor(SWT.COLOR_BLUE));
-		toolkit.adapt(browser);
-		toolkit.paintBordersFor(browser);
 
 	}
 	
-	@SuppressWarnings("unused")
 	@PostConstruct
 	private void initUi() {
 		if (this.myCode != null) {
@@ -201,9 +199,23 @@ public class CodeDetailComposite extends Composite {
 			textGemeindeschluessel.setText(myCode.getAdminCode3());
 			textRegierungsbezirk.setText(myCode.getAdminName2());
 			textLandkreis.setText(myCode.getAdminName3());
-			String urlX =myCode.getGoogleMapsUrl(600,800);
-			System.out.println(urlX);
-			browser.setUrl(urlX);
+			//browser.setUrl(urlX);
+			
+			
+			try {
+				ProxyAuthenticator.authenticate();
+				String myUrl = myCode.getGoogleMapsUrl(600,800);
+				System.out.println(myUrl);
+				URL urly = new URL(myUrl);
+				InputStream is = urly.openStream();
+				Image image = new Image(Display.getCurrent(), is);
+				labelKarte.setImage(image);
+				is.close();
+			} catch (Exception e) {
+				e.printStackTrace();
+			} 
+			
+			
 		}
 	}
 

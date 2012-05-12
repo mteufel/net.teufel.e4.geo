@@ -4,7 +4,7 @@
     <elements xsi:type="commands:Command" xmi:id="_QxV-sBEhEeC4Xa28Y08EqA" elementId="test" commandName="test"/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_OgoD0BEiEeC4Xa28Y08EqA" featurename="handlers" parentElementId="net.teufel.e4.geo">
-    <elements xsi:type="commands:Handler" xmi:id="_SpbsQBEiEeC4Xa28Y08EqA" contributionURI="platform:/plugin/net.teufel.e4.geo.countryinfo.ui/test" command="_QxV-sBEhEeC4Xa28Y08EqA"/>
+    <elements xsi:type="commands:Handler" xmi:id="_SpbsQBEiEeC4Xa28Y08EqA" contributionURI="bundleclass://net.teufel.e4.geo.countryinfo.ui/test" command="_QxV-sBEhEeC4Xa28Y08EqA"/>
   </fragments>
   <fragments xsi:type="fragment:StringModelFragment" xmi:id="_F3dNMBDjEeC4Xa28Y08EqA" featurename="children" parentElementId="main.menu.file" positionInList="last">
     <elements xsi:type="menu:HandledMenuItem" xmi:id="_xW3BgBDjEeC4Xa28Y08EqA" elementId="main.menu.file" label="ABCDEF" iconURI="platform:/plugin/net.teufel.e4.geo.countryinfo.ui/icons/suche.gif" command="_QxV-sBEhEeC4Xa28Y08EqA"/>

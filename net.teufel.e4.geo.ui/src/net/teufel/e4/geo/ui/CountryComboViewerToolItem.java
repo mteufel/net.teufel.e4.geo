@@ -65,7 +65,6 @@ public class CountryComboViewerToolItem extends ToolItemImpl {
 	}
 	
 
-	@SuppressWarnings("unused")
 	@PostConstruct
 	private void init() {
 		Country germany = geonameService.getCountry("DE");

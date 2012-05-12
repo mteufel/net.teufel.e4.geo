@@ -17,9 +17,11 @@ import net.teufel.e4.geo.domain.mappers.CodeNodeMapper;
 import net.teufel.e4.geo.domain.mappers.CountryNodeMapper;
 import net.teufel.e4.geo.domain.mappers.StringNodeMapper;
 import net.teufel.e4.geo.interfaces.IGeonameService;
+import net.teufel.e4.geo.util.ProxyAuthenticator;
 
 @SuppressWarnings("unchecked")
 public class GeonameServiceImpl implements IGeonameService {
+
 	
 	@Override
 	public List<Code> getCodeByName(String name) {
@@ -69,6 +71,7 @@ public class GeonameServiceImpl implements IGeonameService {
 	}
 	
 	private List<?> doSearch(String url, Map<String,String> urlVariables, String xpath, NodeMapper mapper) {
+		ProxyAuthenticator.authenticate();
 		Source payload;
 		if (urlVariables==null) {
 			payload = new RestTemplate().getForObject(url, Source.class);

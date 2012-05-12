@@ -5,7 +5,8 @@ Bundle-SymbolicName: net.teufel.e4.geo.core
 Bundle-Version: 1.0.0.qualifier
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Export-Package: net.teufel.e4.geo.domain,
- net.teufel.e4.geo.interfaces
+ net.teufel.e4.geo.interfaces,
+ net.teufel.e4.geo.util
 Import-Package: org.springframework.web.client,
  org.springframework.xml.xpath
 Bundle-ActivationPolicy: lazy
