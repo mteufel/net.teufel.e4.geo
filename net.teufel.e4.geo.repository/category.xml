@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/net.teufel.e4.geo.feature_1.0.0.qualifier.jar" id="net.teufel.e4.geo.feature" version="1.0.0.qualifier">
+      <category name="net.teufel.e4.geo.category"/>
+   </feature>
+   <category-def name="net.teufel.e4.geo.category" label="e4 geo Category">
+      <description>
+         e4 geo Category
+      </description>
+   </category-def>
+</site>
