@@ -11,6 +11,8 @@
   	<module>../org.springframework.ws</module>
     <module>../net.teufel.e4.geo.core</module>
   	<module>../net.teufel.e4.geo.ui</module>
+  	<module>../net.teufel.e4.geo.feature</module>
+  	<module>../net.teufel.e4.geo.repository</module>
   </modules>
   
   <properties>

@@ -8,4 +8,55 @@
   </parent>
   <artifactId>net.teufel.e4.geo.repository</artifactId>
   <packaging>eclipse-repository</packaging>
+
+  <build>
+	    <plugins>
+
+
+          <plugin>
+                <groupId>org.eclipse.tycho</groupId>
+                <artifactId>target-platform-configuration</artifactId>
+                <version>${tycho-version}</version>
+                <configuration>
+					<dependency-resolution>
+					  <optionalDependencies>ignore</optionalDependencies>
+					</dependency-resolution>
+                    <environments>
+                        <environment>
+                            <os>win32</os>
+                            <ws>win32</ws>
+                            <arch>x86</arch>
+                        </environment>
+                        <environment>
+                            <os>linux</os>
+                            <ws>gtk</ws>
+                            <arch>x86</arch>
+                        </environment>
+                    </environments>
+                </configuration>
+            </plugin>	    
+	    
+	      <plugin>
+	        <groupId>org.eclipse.tycho</groupId>
+	        <artifactId>tycho-p2-director-plugin</artifactId>
+	        <version>${tycho-version}</version>
+	        <executions>
+	          <execution>
+	            <!-- install the product using the p2 director -->
+	            <id>materialize-products</id>
+	            <goals>
+	              <goal>materialize-products</goal>
+	            </goals>
+	          </execution>
+	          <execution>
+	            <!-- create zip file with the installed product -->
+	            <id>archive-products</id>
+	            <goals>
+	              <goal>archive-products</goal>
+	            </goals>
+	          </execution>
+	        </executions>
+	      </plugin>
+	    </plugins>
+	  </build>  
 </project>

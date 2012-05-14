@@ -5,10 +5,10 @@ import java.net.PasswordAuthentication;
 
 public class ProxyAuthenticator {
 
-	private final static String PROXY_HOST = "???";
-	private final static String PROXY_PORT = "???";
-	private final static String PROXY_USER = "???";
-	private final static String PROXY_PASS = "???";
+	private final static String PROXY_HOST = "";
+	private final static String PROXY_PORT = "";
+	private final static String PROXY_USER = "";
+	private final static String PROXY_PASS = "";
 
 	public static void authenticate() {
 		System.setProperty("http.proxyHost",PROXY_HOST) ;
